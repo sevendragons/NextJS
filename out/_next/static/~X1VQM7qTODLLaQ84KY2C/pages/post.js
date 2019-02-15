@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{EhLH:function(t,n,o){"use strict";o.r(n);o("q1tI");var w=o("20a2");o("5Yp1");n.default=Object(w.withRouter)(Post)},MDTK:function(t,n,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/post",function(){var t=o("EhLH");return{page:t.default||t}}])}},[["MDTK",1,0]]]);

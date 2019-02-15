@@ -4,8 +4,20 @@
   "description": "NextJS Practice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "deploy": "cd out && now --public"
   },
   "author": "Nicky",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "reactstrap": "^7.1.0",
+    "styled-components": "^4.1.3"
+  }
 }
