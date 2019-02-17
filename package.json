@@ -1,23 +1,29 @@
 {
-  "name": "nextjs",
+  "name": "folio-hacker-next",
   "version": "1.0.0",
   "description": "NextJS Practice",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "next",
+    "dev": "nodemon server.js",
+    "start": "next start",
     "build": "next build",
     "export": "next export",
-    "deploy": "cd out && now --public"
+    "deploy": "cd folio-hacker-next && now --public"
   },
   "author": "Nicky",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "isomorphic-fetch": "^2.2.1",
     "isomorphic-unfetch": "^3.0.0",
     "next": "^8.0.1",
     "nprogress": "^0.2.0",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "reactstrap": "^7.1.0",
-    "styled-components": "^4.1.3"
+    "styled-components": "^4.1.3",
+    "sw-precache-webpack-plugin": "^0.11.5"
   }
 }
