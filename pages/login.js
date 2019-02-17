@@ -13,4 +13,4 @@ export default function login(props) {
   )
 }
 
-Login.getInitialProps = authInitialProps();
+login.getInitialProps = authInitialProps();
